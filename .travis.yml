@@ -5,3 +5,5 @@ install:
   - pip install Flask
   - pip install pytest
 script: python -m pytest
+notifications:
+  slack: workshopic2:z8f5FzFSVA75mYRahHmHlDUn
